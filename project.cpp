@@ -98,7 +98,7 @@ void print_hangman(int mistakes)
         cout << "       |       " << endl;
     }
 
-    if (mistakes == 5) 
+    if (mistakes >= 5) 
     {
         cout << "      /\\       " << endl;
         cout << "     /  \\       " << endl;
