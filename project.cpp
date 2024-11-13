@@ -60,6 +60,8 @@ int numberleft(string current)
 
 void print_hangman(int mistakes) 
 {
+    if (mistakes == 0)
+        return;
     if (mistakes == 1) 
     {
         cout << "---------------" << endl;
