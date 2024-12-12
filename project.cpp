@@ -43,7 +43,6 @@ string getword() {
 
     int randNum = rand()%words.size();
     return words[randNum];
-    abort;
 }
 
 int numberleft(string current)
